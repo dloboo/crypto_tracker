@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBD66D202D396CAA006EB725 /* lobo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D1F2D396CAA006EB725 /* lobo1App.swift */; };
+		62FA14F52D4A94D300847519 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FA14F42D4A94B500847519 /* Secrets.swift */; };
+		FB2B68F32D400E61007B8497 /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B68F22D400E61007B8497 /* PriceFormatter.swift */; };
+		FB2B68F52D401C77007B8497 /* InterestingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B68F42D401C77007B8497 /* InterestingButton.swift */; };
+		FBB773F12D3AA97500A554E3 /* SearchPopularListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB773F02D3AA97500A554E3 /* SearchPopularListView.swift */; };
+		FBB773F32D3AAA7200A554E3 /* SearchPopularRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB773F22D3AAA7200A554E3 /* SearchPopularRowView.swift */; };
+		FBB773F52D3AAAFF00A554E3 /* EuroToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB773F42D3AAAFF00A554E3 /* EuroToggle.swift */; };
+		FBD66D202D396CAA006EB725 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D1F2D396CAA006EB725 /* CryptoTrackerApp.swift */; };
 		FBD66D222D396CAA006EB725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D212D396CAA006EB725 /* ContentView.swift */; };
 		FBD66D242D396CAB006EB725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD66D232D396CAB006EB725 /* Assets.xcassets */; };
 		FBD66D282D396CAB006EB725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD66D272D396CAB006EB725 /* Preview Assets.xcassets */; };
 		FBD66D322D396CAB006EB725 /* lobo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D312D396CAB006EB725 /* lobo1Tests.swift */; };
 		FBD66D3C2D396CAB006EB725 /* lobo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D3B2D396CAB006EB725 /* lobo1UITests.swift */; };
 		FBD66D3E2D396CAB006EB725 /* lobo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D3D2D396CAB006EB725 /* lobo1UITestsLaunchTests.swift */; };
+		FBD66D4B2D396D4C006EB725 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D4A2D396D4C006EB725 /* CryptoViewModel.swift */; };
+		FBD66D4D2D396E10006EB725 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D4C2D396E10006EB725 /* CryptoModel.swift */; };
+		FBD66D4F2D396E41006EB725 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D4E2D396E41006EB725 /* CryptoCurrency.swift */; };
+		FBD66D512D396F25006EB725 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D502D396F25006EB725 /* APIService.swift */; };
+		FBD66D532D396F96006EB725 /* EncabezadoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D522D396F96006EB725 /* EncabezadoApp.swift */; };
+		FBD66D552D39742B006EB725 /* InterestingCryptoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D542D39742B006EB725 /* InterestingCryptoListView.swift */; };
+		FBD66D572D3974A7006EB725 /* InterestingCryptoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D562D3974A7006EB725 /* InterestingCryptoRowView.swift */; };
+		FBD66D592D3974F5006EB725 /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D582D3974F5006EB725 /* CryptoDetailView.swift */; };
+		FBD66D5B2D397553006EB725 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD66D5A2D397553006EB725 /* OptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62FA14F42D4A94B500847519 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		FB2B68F22D400E61007B8497 /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
+		FB2B68F42D401C77007B8497 /* InterestingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingButton.swift; sourceTree = "<group>"; };
+		FBB773F02D3AA97500A554E3 /* SearchPopularListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPopularListView.swift; sourceTree = "<group>"; };
+		FBB773F22D3AAA7200A554E3 /* SearchPopularRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPopularRowView.swift; sourceTree = "<group>"; };
+		FBB773F42D3AAAFF00A554E3 /* EuroToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroToggle.swift; sourceTree = "<group>"; };
 		FBD66D1C2D396CAA006EB725 /* lobo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lobo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD66D1F2D396CAA006EB725 /* lobo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobo1App.swift; sourceTree = "<group>"; };
+		FBD66D1F2D396CAA006EB725 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		FBD66D212D396CAA006EB725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBD66D232D396CAB006EB725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD66D252D396CAB006EB725 /* lobo1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lobo1.entitlements; sourceTree = "<group>"; };
@@ -45,6 +66,15 @@
 		FBD66D372D396CAB006EB725 /* lobo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD66D3B2D396CAB006EB725 /* lobo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobo1UITests.swift; sourceTree = "<group>"; };
 		FBD66D3D2D396CAB006EB725 /* lobo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBD66D4A2D396D4C006EB725 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		FBD66D4C2D396E10006EB725 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		FBD66D4E2D396E41006EB725 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		FBD66D502D396F25006EB725 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FBD66D522D396F96006EB725 /* EncabezadoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncabezadoApp.swift; sourceTree = "<group>"; };
+		FBD66D542D39742B006EB725 /* InterestingCryptoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingCryptoListView.swift; sourceTree = "<group>"; };
+		FBD66D562D3974A7006EB725 /* InterestingCryptoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingCryptoRowView.swift; sourceTree = "<group>"; };
+		FBD66D582D3974F5006EB725 /* CryptoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
+		FBD66D5A2D397553006EB725 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +102,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6237FC7D2D4AE69E0077FC6B /* InterestingList */ = {
+			isa = PBXGroup;
+			children = (
+				FBD66D542D39742B006EB725 /* InterestingCryptoListView.swift */,
+				FBD66D562D3974A7006EB725 /* InterestingCryptoRowView.swift */,
+				FBD66D582D3974F5006EB725 /* CryptoDetailView.swift */,
+			);
+			path = InterestingList;
+			sourceTree = "<group>";
+		};
+		6266452D2D44F1B4003B0B88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBD66D4C2D396E10006EB725 /* CryptoModel.swift */,
+				FBD66D4E2D396E41006EB725 /* CryptoCurrency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6266452E2D44F1BF003B0B88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBD66D522D396F96006EB725 /* EncabezadoApp.swift */,
+				FBD66D5A2D397553006EB725 /* OptionsView.swift */,
+				6237FC7D2D4AE69E0077FC6B /* InterestingList */,
+				627B7D0C2D47C00A00321406 /* SearchPopularList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6266452F2D44F1CB003B0B88 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FBD66D4A2D396D4C006EB725 /* CryptoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		626645302D44F1D4003B0B88 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FBD66D502D396F25006EB725 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		627B7D0C2D47C00A00321406 /* SearchPopularList */ = {
+			isa = PBXGroup;
+			children = (
+				FBB773F22D3AAA7200A554E3 /* SearchPopularRowView.swift */,
+				FBB773F02D3AA97500A554E3 /* SearchPopularListView.swift */,
+			);
+			path = SearchPopularList;
+			sourceTree = "<group>";
+		};
 		FBD66D132D396CAA006EB725 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +180,16 @@
 		FBD66D1E2D396CAA006EB725 /* lobo1 */ = {
 			isa = PBXGroup;
 			children = (
-				FBD66D1F2D396CAA006EB725 /* lobo1App.swift */,
+				FB2B68F22D400E61007B8497 /* PriceFormatter.swift */,
+				FBB773F42D3AAAFF00A554E3 /* EuroToggle.swift */,
+				FB2B68F42D401C77007B8497 /* InterestingButton.swift */,
+				62FA14F42D4A94B500847519 /* Secrets.swift */,
+				FBD66D1F2D396CAA006EB725 /* CryptoTrackerApp.swift */,
 				FBD66D212D396CAA006EB725 /* ContentView.swift */,
+				626645302D44F1D4003B0B88 /* Services */,
+				6266452F2D44F1CB003B0B88 /* ViewModels */,
+				6266452E2D44F1BF003B0B88 /* Views */,
+				6266452D2D44F1B4003B0B88 /* Models */,
 				FBD66D232D396CAB006EB725 /* Assets.xcassets */,
 				FBD66D252D396CAB006EB725 /* lobo1.entitlements */,
 				FBD66D262D396CAB006EB725 /* Preview Content */,
@@ -260,7 +353,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD66D222D396CAA006EB725 /* ContentView.swift in Sources */,
-				FBD66D202D396CAA006EB725 /* lobo1App.swift in Sources */,
+				FBD66D202D396CAA006EB725 /* CryptoTrackerApp.swift in Sources */,
+				FBB773F12D3AA97500A554E3 /* SearchPopularListView.swift in Sources */,
+				FBD66D592D3974F5006EB725 /* CryptoDetailView.swift in Sources */,
+				FBD66D4D2D396E10006EB725 /* CryptoModel.swift in Sources */,
+				62FA14F52D4A94D300847519 /* Secrets.swift in Sources */,
+				FB2B68F52D401C77007B8497 /* InterestingButton.swift in Sources */,
+				FBD66D532D396F96006EB725 /* EncabezadoApp.swift in Sources */,
+				FBB773F32D3AAA7200A554E3 /* SearchPopularRowView.swift in Sources */,
+				FB2B68F32D400E61007B8497 /* PriceFormatter.swift in Sources */,
+				FBD66D572D3974A7006EB725 /* InterestingCryptoRowView.swift in Sources */,
+				FBD66D4F2D396E41006EB725 /* CryptoCurrency.swift in Sources */,
+				FBD66D512D396F25006EB725 /* APIService.swift in Sources */,
+				FBD66D5B2D397553006EB725 /* OptionsView.swift in Sources */,
+				FBD66D4B2D396D4C006EB725 /* CryptoViewModel.swift in Sources */,
+				FBB773F52D3AAAFF00A554E3 /* EuroToggle.swift in Sources */,
+				FBD66D552D39742B006EB725 /* InterestingCryptoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +457,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +514,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -435,7 +547,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,7 +583,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +626,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,7 +647,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,7 +668,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = afaf.lobo1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
